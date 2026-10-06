@@ -1,0 +1,27 @@
+# PHP / Composer
+/vendor/
+composer.phar
+
+# JavaScript dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+
+# Local config and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and local uploaded data
+*.log
+/uploads/
+/storage/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
